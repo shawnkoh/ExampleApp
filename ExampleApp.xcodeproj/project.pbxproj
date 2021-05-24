@@ -17,6 +17,9 @@
 		8602F34D265C097600611C93 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 8602F34C265C097600611C93 /* FirebaseAuth */; };
 		8602F34F265C097600611C93 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 8602F34E265C097600611C93 /* FirebaseFirestore */; };
 		8602F351265C097600611C93 /* FirebaseFirestoreSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 8602F350265C097600611C93 /* FirebaseFirestoreSwift-Beta */; };
+		8602F353265C09CA00611C93 /* FirebaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8602F352265C09CA00611C93 /* FirebaseService.swift */; };
+		8602F355265C09E000611C93 /* RealFirebaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8602F354265C09E000611C93 /* RealFirebaseService.swift */; };
+		8602F357265C09E600611C93 /* MockFirebaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8602F356265C09E600611C93 /* MockFirebaseService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +53,9 @@
 		8602F336265C087200611C93 /* ExampleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8602F33A265C087200611C93 /* ExampleAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleAppUITests.swift; sourceTree = "<group>"; };
 		8602F33C265C087200611C93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8602F352265C09CA00611C93 /* FirebaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseService.swift; sourceTree = "<group>"; };
+		8602F354265C09E000611C93 /* RealFirebaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealFirebaseService.swift; sourceTree = "<group>"; };
+		8602F356265C09E600611C93 /* MockFirebaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockFirebaseService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,12 +110,15 @@
 		8602F31B265C086F00611C93 /* ExampleApp */ = {
 			isa = PBXGroup;
 			children = (
-				8602F31C265C086F00611C93 /* ExampleAppApp.swift */,
-				8602F31E265C086F00611C93 /* ContentView.swift */,
 				8602F320265C087200611C93 /* Assets.xcassets */,
-				8602F325265C087200611C93 /* Info.plist */,
+				8602F31E265C086F00611C93 /* ContentView.swift */,
 				8602F326265C087200611C93 /* ExampleApp.entitlements */,
+				8602F31C265C086F00611C93 /* ExampleAppApp.swift */,
+				8602F352265C09CA00611C93 /* FirebaseService.swift */,
+				8602F325265C087200611C93 /* Info.plist */,
+				8602F356265C09E600611C93 /* MockFirebaseService.swift */,
 				8602F322265C087200611C93 /* Preview Content */,
+				8602F354265C09E000611C93 /* RealFirebaseService.swift */,
 			);
 			path = ExampleApp;
 			sourceTree = "<group>";
@@ -280,6 +289,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8602F31F265C086F00611C93 /* ContentView.swift in Sources */,
+				8602F353265C09CA00611C93 /* FirebaseService.swift in Sources */,
+				8602F355265C09E000611C93 /* RealFirebaseService.swift in Sources */,
+				8602F357265C09E600611C93 /* MockFirebaseService.swift in Sources */,
 				8602F31D265C086F00611C93 /* ExampleAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
