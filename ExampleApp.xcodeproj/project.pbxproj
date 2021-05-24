@@ -21,6 +21,9 @@
 		8602F355265C09E000611C93 /* RealFirebaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8602F354265C09E000611C93 /* RealFirebaseService.swift */; };
 		8602F357265C09E600611C93 /* MockFirebaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8602F356265C09E600611C93 /* MockFirebaseService.swift */; };
 		8602F359265C0AA900611C93 /* Resolver+ResolverRegistering.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8602F358265C0AA900611C93 /* Resolver+ResolverRegistering.swift */; };
+		8602F35B265C0BE900611C93 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8602F35A265C0BE900611C93 /* GoogleService-Info.plist */; };
+		8602F35C265C0BE900611C93 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8602F35A265C0BE900611C93 /* GoogleService-Info.plist */; };
+		8602F35D265C0BE900611C93 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8602F35A265C0BE900611C93 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +61,7 @@
 		8602F354265C09E000611C93 /* RealFirebaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealFirebaseService.swift; sourceTree = "<group>"; };
 		8602F356265C09E600611C93 /* MockFirebaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockFirebaseService.swift; sourceTree = "<group>"; };
 		8602F358265C0AA900611C93 /* Resolver+ResolverRegistering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Resolver+ResolverRegistering.swift"; sourceTree = "<group>"; };
+		8602F35A265C0BE900611C93 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +121,7 @@
 				8602F326265C087200611C93 /* ExampleApp.entitlements */,
 				8602F31C265C086F00611C93 /* ExampleAppApp.swift */,
 				8602F352265C09CA00611C93 /* FirebaseService.swift */,
+				8602F35A265C0BE900611C93 /* GoogleService-Info.plist */,
 				8602F325265C087200611C93 /* Info.plist */,
 				8602F356265C09E600611C93 /* MockFirebaseService.swift */,
 				8602F322265C087200611C93 /* Preview Content */,
@@ -267,6 +272,7 @@
 			files = (
 				8602F324265C087200611C93 /* Preview Assets.xcassets in Resources */,
 				8602F321265C087200611C93 /* Assets.xcassets in Resources */,
+				8602F35B265C0BE900611C93 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +280,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8602F35C265C0BE900611C93 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +288,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8602F35D265C0BE900611C93 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
