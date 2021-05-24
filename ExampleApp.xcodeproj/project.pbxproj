@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		8602F324265C087200611C93 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8602F323265C087200611C93 /* Preview Assets.xcassets */; };
 		8602F330265C087200611C93 /* ExampleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8602F32F265C087200611C93 /* ExampleAppTests.swift */; };
 		8602F33B265C087200611C93 /* ExampleAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8602F33A265C087200611C93 /* ExampleAppUITests.swift */; };
+		8602F34A265C08A500611C93 /* Resolver in Frameworks */ = {isa = PBXBuildFile; productRef = 8602F349265C08A500611C93 /* Resolver */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8602F34A265C08A500611C93 /* Resolver in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,6 +150,9 @@
 			dependencies = (
 			);
 			name = ExampleApp;
+			packageProductDependencies = (
+				8602F349265C08A500611C93 /* Resolver */,
+			);
 			productName = ExampleApp;
 			productReference = 8602F319265C086F00611C93 /* ExampleApp.app */;
 			productType = "com.apple.product-type.application";
@@ -219,6 +224,9 @@
 				Base,
 			);
 			mainGroup = 8602F310265C086F00611C93;
+			packageReferences = (
+				8602F348265C08A500611C93 /* XCRemoteSwiftPackageReference "Resolver" */,
+			);
 			productRefGroup = 8602F31A265C086F00611C93 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -585,6 +593,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8602F348265C08A500611C93 /* XCRemoteSwiftPackageReference "Resolver" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hmlongco/Resolver";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.4.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8602F349265C08A500611C93 /* Resolver */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8602F348265C08A500611C93 /* XCRemoteSwiftPackageReference "Resolver" */;
+			productName = Resolver;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8602F311265C086F00611C93 /* Project object */;
 }
