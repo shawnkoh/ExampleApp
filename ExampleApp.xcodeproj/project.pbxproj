@@ -20,6 +20,7 @@
 		8602F353265C09CA00611C93 /* FirebaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8602F352265C09CA00611C93 /* FirebaseService.swift */; };
 		8602F355265C09E000611C93 /* RealFirebaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8602F354265C09E000611C93 /* RealFirebaseService.swift */; };
 		8602F357265C09E600611C93 /* MockFirebaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8602F356265C09E600611C93 /* MockFirebaseService.swift */; };
+		8602F359265C0AA900611C93 /* Resolver+ResolverRegistering.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8602F358265C0AA900611C93 /* Resolver+ResolverRegistering.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		8602F352265C09CA00611C93 /* FirebaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseService.swift; sourceTree = "<group>"; };
 		8602F354265C09E000611C93 /* RealFirebaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealFirebaseService.swift; sourceTree = "<group>"; };
 		8602F356265C09E600611C93 /* MockFirebaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockFirebaseService.swift; sourceTree = "<group>"; };
+		8602F358265C0AA900611C93 /* Resolver+ResolverRegistering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Resolver+ResolverRegistering.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 				8602F356265C09E600611C93 /* MockFirebaseService.swift */,
 				8602F322265C087200611C93 /* Preview Content */,
 				8602F354265C09E000611C93 /* RealFirebaseService.swift */,
+				8602F358265C0AA900611C93 /* Resolver+ResolverRegistering.swift */,
 			);
 			path = ExampleApp;
 			sourceTree = "<group>";
@@ -293,6 +296,7 @@
 				8602F355265C09E000611C93 /* RealFirebaseService.swift in Sources */,
 				8602F357265C09E600611C93 /* MockFirebaseService.swift in Sources */,
 				8602F31D265C086F00611C93 /* ExampleAppApp.swift in Sources */,
+				8602F359265C0AA900611C93 /* Resolver+ResolverRegistering.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
