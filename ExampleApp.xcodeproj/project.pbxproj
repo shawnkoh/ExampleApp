@@ -116,17 +116,14 @@
 		8602F31B265C086F00611C93 /* ExampleApp */ = {
 			isa = PBXGroup;
 			children = (
+				8602F35E265C112D00611C93 /* Services */,
 				8602F320265C087200611C93 /* Assets.xcassets */,
 				8602F31E265C086F00611C93 /* ContentView.swift */,
 				8602F326265C087200611C93 /* ExampleApp.entitlements */,
 				8602F31C265C086F00611C93 /* ExampleAppApp.swift */,
-				8602F352265C09CA00611C93 /* FirebaseService.swift */,
 				8602F35A265C0BE900611C93 /* GoogleService-Info.plist */,
 				8602F325265C087200611C93 /* Info.plist */,
-				8602F356265C09E600611C93 /* MockFirebaseService.swift */,
 				8602F322265C087200611C93 /* Preview Content */,
-				8602F354265C09E000611C93 /* RealFirebaseService.swift */,
-				8602F358265C0AA900611C93 /* Resolver+ResolverRegistering.swift */,
 			);
 			path = ExampleApp;
 			sourceTree = "<group>";
@@ -155,6 +152,17 @@
 				8602F33C265C087200611C93 /* Info.plist */,
 			);
 			path = ExampleAppUITests;
+			sourceTree = "<group>";
+		};
+		8602F35E265C112D00611C93 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8602F352265C09CA00611C93 /* FirebaseService.swift */,
+				8602F356265C09E600611C93 /* MockFirebaseService.swift */,
+				8602F354265C09E000611C93 /* RealFirebaseService.swift */,
+				8602F358265C0AA900611C93 /* Resolver+ResolverRegistering.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
