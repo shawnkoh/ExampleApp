@@ -8,7 +8,7 @@
 import Foundation
 import Firebase
 
-class RealFirebaseService: FirebaseService {
+final class RealFirebaseService: FirebaseService {
     func configure() {
         FirebaseApp.configure()
         let settings = FirestoreSettings()

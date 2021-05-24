@@ -24,6 +24,36 @@
 		8602F35B265C0BE900611C93 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8602F35A265C0BE900611C93 /* GoogleService-Info.plist */; };
 		8602F35C265C0BE900611C93 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8602F35A265C0BE900611C93 /* GoogleService-Info.plist */; };
 		8602F35D265C0BE900611C93 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8602F35A265C0BE900611C93 /* GoogleService-Info.plist */; };
+		8602F364265C116D00611C93 /* AuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8602F363265C116D00611C93 /* AuthenticationService.swift */; };
+		8602F365265C116D00611C93 /* AuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8602F363265C116D00611C93 /* AuthenticationService.swift */; };
+		8602F366265C116D00611C93 /* AuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8602F363265C116D00611C93 /* AuthenticationService.swift */; };
+		8602F368265C117500611C93 /* FirestoreAuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8602F367265C117500611C93 /* FirestoreAuthenticationService.swift */; };
+		8602F369265C117500611C93 /* FirestoreAuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8602F367265C117500611C93 /* FirestoreAuthenticationService.swift */; };
+		8602F36A265C117500611C93 /* FirestoreAuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8602F367265C117500611C93 /* FirestoreAuthenticationService.swift */; };
+		8602F36C265C117C00611C93 /* MockAuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8602F36B265C117C00611C93 /* MockAuthenticationService.swift */; };
+		8602F36D265C117C00611C93 /* MockAuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8602F36B265C117C00611C93 /* MockAuthenticationService.swift */; };
+		8602F36E265C117C00611C93 /* MockAuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8602F36B265C117C00611C93 /* MockAuthenticationService.swift */; };
+		8602F370265C11A300611C93 /* TaskService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8602F36F265C11A300611C93 /* TaskService.swift */; };
+		8602F371265C11A300611C93 /* TaskService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8602F36F265C11A300611C93 /* TaskService.swift */; };
+		8602F372265C11A300611C93 /* TaskService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8602F36F265C11A300611C93 /* TaskService.swift */; };
+		8602F374265C11A900611C93 /* FirestoreTaskService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8602F373265C11A900611C93 /* FirestoreTaskService.swift */; };
+		8602F375265C11A900611C93 /* FirestoreTaskService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8602F373265C11A900611C93 /* FirestoreTaskService.swift */; };
+		8602F376265C11A900611C93 /* FirestoreTaskService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8602F373265C11A900611C93 /* FirestoreTaskService.swift */; };
+		8602F378265C11AE00611C93 /* MockTaskService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8602F377265C11AE00611C93 /* MockTaskService.swift */; };
+		8602F379265C11AE00611C93 /* MockTaskService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8602F377265C11AE00611C93 /* MockTaskService.swift */; };
+		8602F37A265C11AE00611C93 /* MockTaskService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8602F377265C11AE00611C93 /* MockTaskService.swift */; };
+		8602F37F265C125E00611C93 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8602F37E265C125E00611C93 /* User.swift */; };
+		8602F380265C125E00611C93 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8602F37E265C125E00611C93 /* User.swift */; };
+		8602F381265C125E00611C93 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8602F37E265C125E00611C93 /* User.swift */; };
+		8602F383265C13D400611C93 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8602F382265C13D400611C93 /* Task.swift */; };
+		8602F384265C13D400611C93 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8602F382265C13D400611C93 /* Task.swift */; };
+		8602F385265C13D400611C93 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8602F382265C13D400611C93 /* Task.swift */; };
+		8602F388265C155500611C93 /* ListenerRegistration++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8602F387265C155500611C93 /* ListenerRegistration++.swift */; };
+		8602F389265C155500611C93 /* ListenerRegistration++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8602F387265C155500611C93 /* ListenerRegistration++.swift */; };
+		8602F38A265C155500611C93 /* ListenerRegistration++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8602F387265C155500611C93 /* ListenerRegistration++.swift */; };
+		8602F38C265C163500611C93 /* DocumentReference++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8602F38B265C163500611C93 /* DocumentReference++.swift */; };
+		8602F38D265C163500611C93 /* DocumentReference++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8602F38B265C163500611C93 /* DocumentReference++.swift */; };
+		8602F38E265C163500611C93 /* DocumentReference++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8602F38B265C163500611C93 /* DocumentReference++.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +92,16 @@
 		8602F356265C09E600611C93 /* MockFirebaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockFirebaseService.swift; sourceTree = "<group>"; };
 		8602F358265C0AA900611C93 /* Resolver+ResolverRegistering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Resolver+ResolverRegistering.swift"; sourceTree = "<group>"; };
 		8602F35A265C0BE900611C93 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8602F363265C116D00611C93 /* AuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationService.swift; sourceTree = "<group>"; };
+		8602F367265C117500611C93 /* FirestoreAuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreAuthenticationService.swift; sourceTree = "<group>"; };
+		8602F36B265C117C00611C93 /* MockAuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAuthenticationService.swift; sourceTree = "<group>"; };
+		8602F36F265C11A300611C93 /* TaskService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskService.swift; sourceTree = "<group>"; };
+		8602F373265C11A900611C93 /* FirestoreTaskService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreTaskService.swift; sourceTree = "<group>"; };
+		8602F377265C11AE00611C93 /* MockTaskService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockTaskService.swift; sourceTree = "<group>"; };
+		8602F37E265C125E00611C93 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		8602F382265C13D400611C93 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		8602F387265C155500611C93 /* ListenerRegistration++.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ListenerRegistration++.swift"; sourceTree = "<group>"; };
+		8602F38B265C163500611C93 /* DocumentReference++.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DocumentReference++.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +156,8 @@
 		8602F31B265C086F00611C93 /* ExampleApp */ = {
 			isa = PBXGroup;
 			children = (
+				8602F386265C151C00611C93 /* Helpers */,
+				8602F37D265C125A00611C93 /* Models */,
 				8602F35E265C112D00611C93 /* Services */,
 				8602F320265C087200611C93 /* Assets.xcassets */,
 				8602F31E265C086F00611C93 /* ContentView.swift */,
@@ -157,12 +199,52 @@
 		8602F35E265C112D00611C93 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				8602F37B265C11B400611C93 /* Firebase */,
+				8602F37C265C11B800611C93 /* Mock */,
+				8602F363265C116D00611C93 /* AuthenticationService.swift */,
 				8602F352265C09CA00611C93 /* FirebaseService.swift */,
-				8602F356265C09E600611C93 /* MockFirebaseService.swift */,
-				8602F354265C09E000611C93 /* RealFirebaseService.swift */,
 				8602F358265C0AA900611C93 /* Resolver+ResolverRegistering.swift */,
+				8602F36F265C11A300611C93 /* TaskService.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		8602F37B265C11B400611C93 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				8602F367265C117500611C93 /* FirestoreAuthenticationService.swift */,
+				8602F373265C11A900611C93 /* FirestoreTaskService.swift */,
+				8602F354265C09E000611C93 /* RealFirebaseService.swift */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		8602F37C265C11B800611C93 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				8602F36B265C117C00611C93 /* MockAuthenticationService.swift */,
+				8602F356265C09E600611C93 /* MockFirebaseService.swift */,
+				8602F377265C11AE00611C93 /* MockTaskService.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		8602F37D265C125A00611C93 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8602F382265C13D400611C93 /* Task.swift */,
+				8602F37E265C125E00611C93 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8602F386265C151C00611C93 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				8602F38B265C163500611C93 /* DocumentReference++.swift */,
+				8602F387265C155500611C93 /* ListenerRegistration++.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -307,12 +389,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8602F37F265C125E00611C93 /* User.swift in Sources */,
+				8602F370265C11A300611C93 /* TaskService.swift in Sources */,
 				8602F31F265C086F00611C93 /* ContentView.swift in Sources */,
 				8602F353265C09CA00611C93 /* FirebaseService.swift in Sources */,
 				8602F355265C09E000611C93 /* RealFirebaseService.swift in Sources */,
+				8602F388265C155500611C93 /* ListenerRegistration++.swift in Sources */,
+				8602F368265C117500611C93 /* FirestoreAuthenticationService.swift in Sources */,
 				8602F357265C09E600611C93 /* MockFirebaseService.swift in Sources */,
+				8602F38C265C163500611C93 /* DocumentReference++.swift in Sources */,
 				8602F31D265C086F00611C93 /* ExampleAppApp.swift in Sources */,
 				8602F359265C0AA900611C93 /* Resolver+ResolverRegistering.swift in Sources */,
+				8602F364265C116D00611C93 /* AuthenticationService.swift in Sources */,
+				8602F36C265C117C00611C93 /* MockAuthenticationService.swift in Sources */,
+				8602F378265C11AE00611C93 /* MockTaskService.swift in Sources */,
+				8602F383265C13D400611C93 /* Task.swift in Sources */,
+				8602F374265C11A900611C93 /* FirestoreTaskService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,7 +412,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8602F389265C155500611C93 /* ListenerRegistration++.swift in Sources */,
+				8602F371265C11A300611C93 /* TaskService.swift in Sources */,
 				8602F330265C087200611C93 /* ExampleAppTests.swift in Sources */,
+				8602F36D265C117C00611C93 /* MockAuthenticationService.swift in Sources */,
+				8602F369265C117500611C93 /* FirestoreAuthenticationService.swift in Sources */,
+				8602F380265C125E00611C93 /* User.swift in Sources */,
+				8602F375265C11A900611C93 /* FirestoreTaskService.swift in Sources */,
+				8602F365265C116D00611C93 /* AuthenticationService.swift in Sources */,
+				8602F38D265C163500611C93 /* DocumentReference++.swift in Sources */,
+				8602F384265C13D400611C93 /* Task.swift in Sources */,
+				8602F379265C11AE00611C93 /* MockTaskService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,7 +430,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8602F38A265C155500611C93 /* ListenerRegistration++.swift in Sources */,
+				8602F372265C11A300611C93 /* TaskService.swift in Sources */,
 				8602F33B265C087200611C93 /* ExampleAppUITests.swift in Sources */,
+				8602F36E265C117C00611C93 /* MockAuthenticationService.swift in Sources */,
+				8602F36A265C117500611C93 /* FirestoreAuthenticationService.swift in Sources */,
+				8602F381265C125E00611C93 /* User.swift in Sources */,
+				8602F376265C11A900611C93 /* FirestoreTaskService.swift in Sources */,
+				8602F366265C116D00611C93 /* AuthenticationService.swift in Sources */,
+				8602F38E265C163500611C93 /* DocumentReference++.swift in Sources */,
+				8602F385265C13D400611C93 /* Task.swift in Sources */,
+				8602F37A265C11AE00611C93 /* MockTaskService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,8 +8,8 @@
 import SwiftUI
 import Resolver
 
-class AppViewModel: ObservableObject {
-    @Injected var firebaseService: FirebaseService
+final class AppViewModel: ObservableObject {
+    @LazyInjected private var firebaseService: FirebaseService
 
     init() {
         firebaseService.configure()
@@ -18,7 +18,7 @@ class AppViewModel: ObservableObject {
 
 @main
 struct ExampleAppApp: App {
-    @StateObject var viewModel = AppViewModel()
+    @StateObject private var viewModel = AppViewModel()
 
     var body: some Scene {
         WindowGroup {
