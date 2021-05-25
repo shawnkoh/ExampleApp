@@ -7,7 +7,7 @@
 
 import Foundation
 
-final class MockFirebaseService: FirebaseService {
+class MockFirebaseService: FirebaseService {
     func configure() {
         // Do nothing. This is a mock
     }

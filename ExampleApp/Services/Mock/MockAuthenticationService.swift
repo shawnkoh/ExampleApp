@@ -7,8 +7,8 @@
 
 import Foundation
 
-final class MockAuthenticationService: AuthenticationService {
-    @Published private(set) var user: User = .init(id: "unauthenticated")
+class MockAuthenticationService: AuthenticationService {
+    @Published var user: User = .init(id: "unauthenticated")
     var userPublisher: Published<User>.Publisher { $user }
 
     func signIn() {

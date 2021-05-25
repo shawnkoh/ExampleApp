@@ -11,10 +11,10 @@ import FirebaseFirestoreSwift
 import Resolver
 import Combine
 
-final class MockTaskService: TaskService {
-    @LazyInjected private var authenticationService: AuthenticationService
+class MockTaskService: TaskService {
+    @LazyInjected var authenticationService: AuthenticationService
 
-    @Published private(set) var tasks: [Task] = []
+    @Published var tasks: [Task] = []
     var tasksPublisher: Published<[Task]>.Publisher { $tasks }
 
     init() {

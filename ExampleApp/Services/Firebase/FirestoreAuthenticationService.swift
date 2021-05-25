@@ -10,7 +10,7 @@ import Firebase
 import FirebaseFirestoreSwift
 import Combine
 
-final class FirestoreAuthenticationService: AuthenticationService {
+class FirestoreAuthenticationService: AuthenticationService {
     @Published var user = User(id: "unauthenticated")
     var userPublisher: Published<User>.Publisher {
         $user

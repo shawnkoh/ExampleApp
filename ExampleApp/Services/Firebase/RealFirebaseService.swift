@@ -8,12 +8,10 @@
 import Foundation
 import Firebase
 
-final class RealFirebaseService: FirebaseService {
+class RealFirebaseService: FirebaseService {
     func configure() {
         FirebaseApp.configure()
         let settings = FirestoreSettings()
-        settings.isPersistenceEnabled = true
-        settings.cacheSizeBytes = FirestoreCacheSizeUnlimited
         Firestore.firestore().settings = settings
     }
 }

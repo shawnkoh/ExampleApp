@@ -9,12 +9,12 @@ import SwiftUI
 import Resolver
 import Combine
 
-final class ContentViewModel: ObservableObject {
-    @LazyInjected private var taskService: TaskService
+class ContentViewModel: ObservableObject {
+    @LazyInjected var taskService: TaskService
 
-    @Published private(set) var tasks: [Task] = []
+    @Published var tasks: [Task] = []
 
-    private var subscribers = Set<AnyCancellable>()
+    var subscribers = Set<AnyCancellable>()
 
     init() {
         taskService.tasksPublisher
@@ -25,7 +25,7 @@ final class ContentViewModel: ObservableObject {
 }
 
 struct ContentView: View {
-    @StateObject private var viewModel = ContentViewModel()
+    @StateObject var viewModel = ContentViewModel()
 
     var body: some View {
         List {

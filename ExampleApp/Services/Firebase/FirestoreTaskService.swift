@@ -11,16 +11,16 @@ import Combine
 import Firebase
 import FirebaseFirestoreSwift
 
-final class FirestoreTaskService: TaskService {
-    @LazyInjected private var authenticationService: AuthenticationService
+class FirestoreTaskService: TaskService {
+    @LazyInjected var authenticationService: AuthenticationService
 
-    @Published private(set) var tasks: [Task] = []
+    @Published var tasks: [Task] = []
     var tasksPublisher: Published<[Task]>.Publisher {
         $tasks
     }
 
-    private var subscribers = Set<AnyCancellable>()
-    private var listeners: [ListenerRegistration] = []
+    var subscribers = Set<AnyCancellable>()
+    var listeners: [ListenerRegistration] = []
 
     init() {
         authenticationService.userPublisher
